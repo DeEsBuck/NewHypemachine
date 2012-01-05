@@ -1,0 +1,15 @@
+development:
+    adapter: mysql2
+    encoding: utf8
+    database: workshops_development
+    username: root
+    password:
+test:
+    adapter: mysql2
+    encoding: utf8
+    database: workshops_test
+    username: root
+    password:
+production:
+    adapter: mysql2
+    encoding: utf8
